@@ -1,6 +1,8 @@
 The run_analysis.R script is designed to clean up some of the data contained in the file that can be downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-It assumes that the working directory contains the files:
+To read the original dataset specifications please refer to the file dataset_README.txt
+
+The script run_analysis.R assumes that the working directory contains the files:
 * activity_labels.txt
 * features.txt
 * test/subject_test.txt

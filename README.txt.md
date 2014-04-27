@@ -1,6 +1,8 @@
 The run_analysis.R script is designed to clean up some of the data contained in the file that can be downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-It assumes that the working directory contains the files:
+To read the original dataset specifications please refer to the file dataset_README.txt
+
+The script run_analysis.R assumes that the working directory contains the files:
 * activity_labels.txt
 * features.txt
 * test/subject_test.txt
@@ -30,4 +32,4 @@ The script performs the following:
 + writes the dataset dataSet to a file named "tidy_data_4.txt" 
 + Starting from the dataMerge dataset the script melts the data using the columns "subject_id", "activity_id" and "activity" as identifiers
 + Creates a second, independent tidy data set with the average of each variable for each activity and each subject (byactsubj)
-+ writes the dataset byactsubj to a file named "tidy_data_5.txt" 
++ writes the dataset byactsubj to a file named "tidy_data_5.txt"  
